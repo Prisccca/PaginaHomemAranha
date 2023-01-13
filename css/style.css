@@ -1,14 +1,20 @@
 header {
     background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100px;
 }
+
+header ul {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between ;
+}
+
+
 
 header ul li a {
     text-decoration: none;
     color: red;
+    padding: 50px;
 }
 
 .img{
